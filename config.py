@@ -40,7 +40,7 @@ START_PIC = os.environ.get("START_PIC","CAACAgUAAxkBAAEBh_Jnmb7YMzrJfN6fHsJAjogO
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "6080388435").split()):
+    for x in (os.environ.get("ADMINS", "6502373566").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
